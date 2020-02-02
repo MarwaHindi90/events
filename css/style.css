@@ -1,0 +1,187 @@
+body {
+    overflow-x: hidden
+}
+
+.home {
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* width: 100%; */
+    height: 650px;
+    color: #FFF;
+    position: relative;
+}
+
+.home .home_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+#main h2 {
+    margin-top: 200px;
+}
+
+.sideNav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #414658d6;
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+    padding-top: 50px;
+}
+
+.sideNav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+    padding: 18px 8px 20px 32px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNav a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.sideNav .closebtn:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+#main {
+    height: 100%;
+    transition: all .5s;
+    padding: 16px;
+}
+
+#main span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.box h3 {
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    margin: 0;
+    color: #fff
+}
+
+.box p {
+    background-color: #ccc;
+    padding: 14px;
+    margin: 0;
+    font-size: 15px;
+    display: none
+}
+
+.counter-sec {
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 350px;
+    position: relative;
+}
+
+.counter-sec .overlay-counter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.counter-sec .time {
+    border: 1px solid #FFF;
+    font-size: 2.3rem;
+}
+
+
+/* Hire Me */
+
+.info-hair h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info-hair p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7
+}
+
+.info-hair .cont {
+    font-size: 16px
+}
+
+.social {
+    border-top: 1px solid #fafafa;
+    padding-top: 20px;
+    margin: 10px 0
+}
+
+.social ul li a {
+    border: 1px solid #999999;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    color: #777777;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.social ul li a:hover {
+    background-color: #ec3337;
+    color: #FFF;
+    border: 1px solid #ec3337;
+}
+
+.info-hair .link {
+    color: #BF360C;
+}
+
+.filed .form-control {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border: 2px solid #cccccc;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
+
+.filed .btn-defult {
+    padding: 10px 24px;
+    border: 2px solid #ec3237;
+    background-color: #ec3237;
+    border-radius: 0;
+    font-size: 14px;
+}
